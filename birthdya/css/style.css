@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    background-color: rgb(62,71,114);
+    font-family: Roboto, arial, sans-serif;
+    font-size: 32px;
+    color: #cfd5dc;
+}
+
+h1 {
+  font-family: "Open Sans";
+  margin: 10px 0px;
+}
+
+p {
+  font-size: 14px;
+  margin: 5px;
+}
+
+
+/* Style the links inside the navigation bar */
+.nav a{
+  float: left;
+  display: block;
+  color: #cfd5dc;
+  background-color: rgb(95, 109, 175);
+  text-align: center;
+  padding: 6px 20px;
+  margin: 6px;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius:  100px;
+}
+  
+  /* Change the color of links on hover */
+/* .nav a:hover {
+  background-color: #ddd;
+  color: black;
+} */ 
+  
+  /* Add a color to the active/current link */
+.nav a.active {
+  border: 1px solid #dde4eb;
+}
+/* Hide the link that should open and close the topnav on small screens */
+.nav .icon {
+  display: none;
+}
+
+
