@@ -6,6 +6,13 @@
     color: #cfd5dc;
 }
 
+body
+{
+    font-family:sans-serif;
+    max-width: 80%;
+    margin: 4px;
+}
+
 h1 {
   font-family: "Open Sans";
   margin: 10px 0px;
@@ -16,11 +23,16 @@ p {
   margin: 5px;
 }
 
+img {
+  width: 80%;
+  margin: 16px;
+  margin-left: 0;
+}
 
 /* Style the links inside the navigation bar */
 .nav a{
-  float: left;
-  display: block;
+  /* display: inline-block; */
+  width: 15%;
   color: #cfd5dc;
   background-color: rgb(95, 109, 175);
   text-align: center;
@@ -31,19 +43,19 @@ p {
   border-radius:  100px;
 }
   
-  /* Change the color of links on hover */
-/* .nav a:hover {
+/* Change the color of links on hover */
+.nav a:hover {
   background-color: #ddd;
   color: black;
-} */ 
+} 
   
-  /* Add a color to the active/current link */
-.nav a.active {
+  Add a color to the active/current link
+.nav a:focus {
   border: 1px solid #dde4eb;
 }
+
 /* Hide the link that should open and close the topnav on small screens */
 .nav .icon {
   display: none;
 }
-
 
